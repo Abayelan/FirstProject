@@ -1,0 +1,171 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+
+}
+
+.container{
+    background-image: linear-gradient(rgb(0, 0, 0,0.2), rgb(0, 0, 0,0.3)),url(image/login.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: 1px solid rgb(3, 97, 61);
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+}
+
+.abay{
+    background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(19, 128, 82, 0.4));
+    border-radius: 10px;
+    box-shadow: 2px 9px 15px black;
+    max-width: 500px;
+    margin: auto;
+    height: 75vh;
+}
+
+.nude{
+    max-width: 490px;
+    margin: auto;
+    margin-top: 70px;
+    padding: 40px;
+}
+
+.word{
+    padding-top: 21px;
+    text-align: center;
+}
+
+.power{
+    max-width: 490px;
+    margin: auto;
+    padding: 10px 20px;
+}
+
+.bux{
+    max-width: 450px;
+    margin: auto;
+    margin-top: 1px;
+    padding: 10px;
+}
+
+.bux:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in-out;
+}
+
+.secondword{    
+    margin: auto;
+    max-width: 170px;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px;
+}
+
+input{
+    border-radius: 10px;
+    border-width: 0;
+    box-shadow: 2px 3px 9px;
+    width: 350px;
+    height: 38px;
+    padding: 2px 10px;
+}
+
+span{
+    color: rgb(197, 6, 197);
+    border: 1px solid black;
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+.sanaol2{
+    padding: 10px 15px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.sanaol2:active{
+    background-color: rgb(92, 12, 167);
+    transition: 0.06s ease-in-out;
+}
+
+.sanaol2:hover{
+    transform: scale(1.1)
+}
+
+.sanaol{
+    background-color: rgb(111, 13, 203);
+    padding: 10px 15px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 5px;
+    border-width: 0;
+    cursor: pointer;
+}
+
+.sanaol:active{
+    background-color: rgb(236, 236, 236);
+    transition: 0.06s ease-in-out;
+}
+
+.sanaol:hover{
+    transform: scale(1.1)
+}
+
+img{
+    height: 60px;
+    padding: 8px;
+}
+
+.red{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.okay{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.rey{
+    color: white;
+}
+
+.rey:hover{
+    color: rgb(153, 173, 165);
+}
+
+.angel{
+    margin: 0;
+    width: 400px;
+    text-align: center; 
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: -40px;
+}
+
+.ows8{
+    margin-top: 6px;
+    color: rgb(80, 5, 80);
+    text-shadow: 1px 3px 8px rgb(86, 80, 80);
+}
+
+.now{
+    width: 100px;
+    border: 1px solid black;
+    height: 50px;
+}

@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+}
+
+body{
+    height: 100vh;
+    background-image: url(image/new-zealand-5120x2880-5k-4k-wallpaper-8k-mountain-island-clouds-sky-556.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header{
+    background: transparent;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.axe{
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: green;
+    transition: 0.3s ease-in-out;
+}
+
+ul{
+    list-style: none;
+    margin-left: -250px;
+}
+
+ul li{
+    padding: 2px;
+    list-style-type: none;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: 4px;
+    margin-left: 5px;
+}
+
+li:hover{
+    transform: scale(1.1);
+}
+
+select{
+    width: 300px;
+    height: 25px;
+    margin-top: 4px;
+    margin-right: -300px;
+    background: transparent;
+    border: 1px solid black;
+}
+
+.abaye{
+    display: flex;
+}
+
+.baby{
+    margin-right: 100px;
+}
+
+.kuyaw{
+    background-color: rgb(8, 137, 142);
+    margin-top: 3px;
+    padding: 4px;
+}
+
+.kuyaw:active{
+    background-color: rgb(17, 85, 88);
+}
+
+section{
+    height: 100px;
+    margin-top: 60px;
+}
+
+.kantiner{
+    max-width: 700px;
+    margin: auto;
+    margin-top: 35px;
+    align-items: center;
+    display: flex;
+}
+
+.kantiner:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-in;
+}
+
+#lodge{ 
+    box-shadow: 1px 2px 5px;
+    border: 1px solid black;
+    width: 650px;
+    display: flex;
+    margin: auto;
+    padding: 13px 18px;
+    background: rgba(128, 126, 124, 0.393);
+    color: black;
+    font-size: 17px;
+    border-radius: 25px;
+    border-width: 0.5;
+    cursor: pointer;
+}
+    
+.thanks{
+    font-size: 16px;
+    padding-right: 10px;
+}
+
+#lodge::placeholder{
+    color: rgba(0, 0, 0, 0.56);
+}
